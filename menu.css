@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/data_coffee-tables-mdf_ainsley-coffee-table_exotic-teak-finish_front.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu_1 nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    height: 100px;
+}
+.menu_1 nav ul li{
+    font-size: larger;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 80px;
+}
+.menu_1 nav ul li{
+    background-color: green;
+    border-radius: 5%;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+.menu_1 nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+.menu_2{
+    display: none;
+}
+.menu_2 ul{
+    list-style-type: none;
+    background-size: cover;
+}
+.menu_2 nav ul li{
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+.menu_1 ul li:hover .menu_2{
+    display: block;
+    position: absolute;
+    background-color: green;
+    height: 400px;
+
+}
+
+.menu_1 ul li:hover .menu_2 ul{
+    display: block;
+}
